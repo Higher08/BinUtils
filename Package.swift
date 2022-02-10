@@ -2,5 +2,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "BinUtils"
+    name: "BinUtils",
+    products: [
+        .library(name: "FDB", targets: ["FDB"]),
+    ],
 )
