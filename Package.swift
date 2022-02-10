@@ -9,8 +9,10 @@ let package = Package(
     products: [
         .library(name: "BinUtils", targets: ["BinUtils"]),
     ],
-    dependencies: [],
     targets: [
-        .target(name: "BinUtils", dependencies: []),
+        .target(
+            name: "BinUtils",
+            path: "Sources"
+        )
     ]
 )
