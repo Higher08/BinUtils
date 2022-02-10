@@ -3,13 +3,6 @@ import PackageDescription
 
 let package = Package(
     name: "BinUtils",
-    products: [
-        .library(name: "BinUtils", targets: ["BinUtils"]),
-    ],
-)
-
-let package = Package(
-    name: "BinUtils",
     platforms: [
        .macOS(.v10_15)
     ],
